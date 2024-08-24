@@ -14,7 +14,4 @@ import snowflake.connector
 
 
 #123
-<<<<<<< HEAD
-=======
 #1234
->>>>>>> ba28729098f46082ce3a4cef71ea24579f8905ce
