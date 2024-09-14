@@ -32,7 +32,7 @@ mayors_data = {
 mayors = pd.DataFrame(mayors_data)
 
 # Display the DataFrame
-print(mayors)
+print(mayors)``
 
 
 #joining mayors with cities 
