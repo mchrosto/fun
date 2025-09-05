@@ -52,3 +52,32 @@ point_value = favorite_languages.get('matt', 'Matt is not in dicitonary')
 print(point_value)
 
 
+user_0 = {'username': 'efermi', 'first': 'enrico', 'last': 'fermi' }
+
+for key, value in user_0.items(): 
+    print(f"\nKey: {key}")
+    print(f"\nValue: {value}")
+
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+#looping through the key is the default for for loops and dicitionaries 
+
+for name in favorite_languages.keys():
+    print(name.title())
+
+for name in favorite_languages:
+    print(name.title())
+
+
+
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys(): 
+    print(f"Hi {name.title()}")
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
+
+if 'erin' not in favorite_languages.keys():
+    print("Erin, please take our poll!")
+
